@@ -62,11 +62,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+
 }
 .game video {
   margin: 2vh 0;
 }
 .game p {
+width:50%;
+margin:5px 0;
+font-size: 20px;
 
 }

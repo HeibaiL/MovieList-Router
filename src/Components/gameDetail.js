@@ -28,6 +28,8 @@ const gameDetail = props => {
         <h1>{game.name}</h1>
         <video src={game.clip.clip} controls autoPlay loop muted />
         <p>{`Game released: ${game.released}`}</p>
+        <p>{`Rating: ${game.rating}`}</p>
+        <p>{`Genres: ${game.genres.map(genre=>genre.name)}`}</p>
       </div>
     );
   } else {
